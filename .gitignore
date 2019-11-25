@@ -1,0 +1,5 @@
+__pycache__
+forest_results
+grid_world_results
+stats
+*.csv
