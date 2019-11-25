@@ -180,7 +180,7 @@ def run_policy_iteration_grid_world(world, transitions, reward):
 
 def run_q_learning_grid_world():
     world = GridWorld('simple_grid.txt', -0.01, include_treasure=False)
-    n_episodes = 50000-
+    n_episodes = 500000
     how_often = n_episodes / 500
 
     stats = IterationStats('stats/ql_simple_grid.csv', dims=5)
